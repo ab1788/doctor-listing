@@ -25,7 +25,7 @@ const Autocomplete = ({ query, doctors, onChange, onSearch }) => {
               onClick={() => onSearch(d.name)}
             >
               <img
-                src={d.image || 'https://dummyimage.com/40x40/ccc/000&text=Dr'}
+                src={d.photo || 'https://dummyimage.com/40x40/ccc/000&text=Dr'}
                 alt="doctor"
                 className="w-10 h-10 rounded-full"
               />
