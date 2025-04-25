@@ -1,17 +1,4 @@
-// import React from 'react';
-// import DoctorCard from './DoctorCard';
 
-// const DoctorList = ({ doctors }) => {
-//   return (
-//     <div className="space-y-4">
-//       {doctors.map((doc) => (
-//         <DoctorCard key={doc.id} doctor={doc} />
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default DoctorList;
 import React from 'react';
 import DoctorCard from './DoctorCard';
 

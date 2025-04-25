@@ -95,6 +95,7 @@ const App = () => {
             onSort={setSort}
             onToggleSpecialty={toggleSpecialty}
             onConsultation={setConsultation}
+            currentSort={searchParams.get('sort')}
           />
         </div>
 
